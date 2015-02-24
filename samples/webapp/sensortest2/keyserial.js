@@ -1,5 +1,5 @@
 // [keyserial.js]
-// keyboard sirial command receiver
+// keyboard serial command receiver
 //
 // CCA3.0 License 2015 by D.F.Mac.
 // See also http://creativecommons.org/licenses/by/3.0/
