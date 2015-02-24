@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sensor Test</title>
+<style>
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#sensorvalue{
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:white;
+}
+
+#sensorvalue:before{
+	content:"value:";
+}
+
+#img_brightness{
+	display:block;
+	margin: 0 auto;
+	padding: 0;
+	width:100%;
+	height:500px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.sts_none{
+	background-image:url(./img/none.png);
+}
+
+.sts_light{
+	background-image:url(./img/light.png);
+}
+
+.sts_dark{
+	background-image:url(./img/dark.png);
+}
+
+</style>
+</head>
+<body>
+<div id="sensorvalue">---</div>
+<div id="img_brightness" class="sts_none"></div>
+<script src="jquery-2.1.1.min.js"></script>
+<script src="keyserial.js"></script>
+<script src='main.js'></script>
+</body>
+</html>
